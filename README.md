@@ -16,4 +16,5 @@ late Animation _animation
 void initState(){
   super.initState();
   _animationController = AnimationController(vsync: this, duration : Duration(seconds:2);
-  _animation = Tween<double>(begin 30.0, end: 200).animation();
+  _animation = Tween<double>(begin 30.0, end: 200).animate(CurvedAnimation(curve:Curves.easeInOut, parent:_animationController));
+}
