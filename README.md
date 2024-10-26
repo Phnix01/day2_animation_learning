@@ -1,3 +1,11 @@
+
+
+https://github.com/user-attachments/assets/7bbfe5e6-5a74-49df-bf74-e77773558268
+
+
+
+https://github.com/user-attachments/assets/2efe09b4-8086-48a3-85dc-632b39b89375
+
 # day2_animation_learning
 
 à ce jour 2 de l'apprentissage des animations flutter, pour améliorer l'aspect graphique et l'exprérience utilisateur.
