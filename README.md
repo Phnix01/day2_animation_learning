@@ -1,16 +1,19 @@
 # day2_animation_learning
 
-A new Flutter project.
+à ce jour 2 de l'apprentissage des animations flutter, pour améliorer l'aspect graphique et l'exprérience utilisateur.
+je me suis concentré sur les animations explicites qui donnent aux dev une certaines flexibilité par rapport aux animations implicites qui sont assez rigides. 
+les éleéments que j'ai eu à manipuler sont : 
+- AnimationController 
+- Animation
+- AnimatedBuilder
+- Tween
 
-## Getting Started
+exemple pour animation sur la taille d'une widget :
+late AnimationController _animationController;
+late Animation _animation 
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+@override 
+void initState(){
+  super.initState();
+  _animationController = AnimationController(vsync: this, duration : Duration(seconds:2);
+  _animation = Tween<double>(begin 30.0, end: 200).animation();
